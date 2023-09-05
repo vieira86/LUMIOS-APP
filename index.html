@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Vieira - Pesquisador e Professor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 50px;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            display: inline-block; /* Adicionado para colocar ao lado da imagem */
+            vertical-align: top;  /* Alinha verticalmente ao topo */
+            margin-left: 20px;    /* Espaço entre a imagem e o título */
+        }
+
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            color: #7f8c8d;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: '→';
+            color: #3498db;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* Estilos da imagem */
+        .header-container {
+            display: flex;
+            align-items: center;  /* Centraliza verticalmente */
+        }
+
+
+        .profile-image {
+            width: 120px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;  /* Espaço à direita da imagem */
+        }
+
+        .profile-image img {
+            width: 100%;
+            height: auto;
+        }
+
+        .expertise-container {
+            display: flex;
+            align-items: start; /* Alinhamento vertical no topo */
+            justify-content: space-between; /* Espaço entre os elementos */
+            flex-wrap: wrap; /* Permite que os itens se ajustem em várias linhas se necessário */
+        }
+
+        .expertise-list {
+            flex: 1;
+            min-width: 250px; /* Largura mínima da lista de expertise */
+        }
+
+        .promo-image img {
+            width: 300px; /* Tamanho da imagem */
+            height: auto;
+            margin-left: 20px; /* Espaço à esquerda da imagem */
+        }
+
+        .promo-image2 img {
+            width: 2000px; /* Tamanho da imagem */
+            height: auto;
+            margin-left: 10px; /* Espaço à esquerda da imagem */
+        }
+
+    .button {
+        background-color: #3498db;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        text-decoration: none;  /* Estilização para remover o sublinhado de links */
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+        background-color: #2980b9;  /* Um tom mais escuro no hover */
+    }
+
+    .introduction {
+    background-color: #84acc6;   /* Fundo azul */
+    padding: 15px;              /* Espaço interno ao redor do texto */
+    border-radius: 200px;        /* Borda arredondada */
+    color: #fff;                /* Texto branco */
+    margin-bottom: 1px;        /* Espaço abaixo da seção para separá-la do próximo conteúdo */
+}
+
+
+
+    h2.title {
+    border-bottom: 3px solid #3498db; /* borda de 3px, sólida, na cor #3498db */
+    padding-bottom: 10px; /* padding na parte inferior para dar um espaço entre o texto e a borda */
+}
+
+.content-columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Alinha os itens no topo */
+    gap: 20px; /* Espaço entre as colunas */
+}
+
+.left-column,
+.right-column {
+    flex: 1; /* Ambas as colunas terão larguras iguais */
+    width: 50%; /* Definindo a largura igual para ambas as colunas */
+}
+
+/* Se quiser um espaço entre as colunas, ajuste a porcentagem e adicione margem, por exemplo: */
+
+.left-column {
+    width: 48%;
+    margin-right: 2%;
+}
+
+.right-column {
+    width: 48%;
+    margin-left: 2%;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div class="header-container">
+        <div class="profile-image">
+            <img src="Rafael.png" alt="Foto de Rafael Vieira">
+        </div>
+        <h1>Rafael Vieira</h1>        
+    </div>
+
+    <h2 class="title">🧑🏻‍🏫PROFESSOR - 👨🏽‍💻DATA SCIENTIST - 👨🏻‍🔬CHEMISTRY - 🤖MACHINE LEARNING - 🧠DEEP LEARNING</h2>
+
+    <p><strong>Afiliação:</strong> Instituto Federal de Rondônia</p>
+    
+
+    <h2>Introdução</h2>
+    <div class="introduction">
+        <p>Olá! Sou Rafael Vieira, dedicado pesquisador e professor com uma profunda paixão pela Química de Produtos Naturais. Ao longo da minha trajetória, sempre busquei integrar a riqueza da química natural com as promissoras técnicas de Inteligência Artificial, como Machine Learning e Deep Learning. Dessa fusão, emergem soluções e descobertas inovadoras.</p>
+    </div>
+    
+    <div class="content-columns">
+    
+        <div class="left-column">
+            <h2>Áreas de Expertise</h2>
+            <div class="expertise-container">
+                <ul class="expertise-list">
+                    <li>Química de Produtos Naturais</li>
+                    <li>Inteligência Artificial & Machine Learning</li>
+                    <li>Técnicas in silico: Docking & Dinâmica Molecular</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="right-column">
+            <h2>Minha Missão</h2>
+            <p>Minha missão é continuar explorando a intersecção entre a química natural e a inteligência artificial, buscando soluções inovadoras para desafios contemporâneos. Seja na sala de aula ou no laboratório, estou comprometido em compartilhar e aplicar esse conhecimento para um futuro melhor.</p>
+        </div>
+        
+    </div>
+    
+    <div class="promo-image">
+        <img src="divulgacao.png" alt="Imagem de Divulgação" style="width: 130px; max-width: 150px; height: auto;">
+    </div>
+    
+    <a href="https://vieira-rafael.com/lumios-app/" class="button">Conheça o LUMIOS</a>
+    
+    <h2>Contato</h2>
+    <p>Estou sempre aberto a colaborações, discussões e novas oportunidades. Se você deseja se conectar, <a href="mailto:rafael@vieira-rafael.com" style="color: #3498db;">entre em contato</a>.</p>
+</body>
+
+</html>
