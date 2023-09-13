@@ -17,14 +17,15 @@
     /* Estilos para telas maiores, como tablets e computadores */
 }
 
+<style>
+    p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
 img {
     max-width: 100%;
     height: auto;
-}
-
-p{
-text-align: justify;
-text-indent: 50px;
 }
 
 p#introducao{
@@ -48,14 +49,14 @@ div#interface {
     padding: 10px 10px 10px 10px;
 }
 
-header#cabecalho img#icone {
+/*header#cabecalho img#icone {
     position: absolute;
     left: 265px;
     top: 167px;
-    width: 11%;
-    height: 26% ;
+    width: 9%;
+    height: 24% ;
 
-}
+} */
 
 header#cabecalho {
     border-bottom: 1px #606060 solid;
@@ -125,7 +126,7 @@ nav#menu ul{
     text-transform: uppercase;
     position: absolute;
     top: -20px;
-    left: 500px;
+    left: 640px;
 
 }
 
@@ -166,7 +167,7 @@ article#missao h2{
     color:black;
     background-color: #dddddd;
     padding: 10px 0px 5px 0px;
-    margin: 12px 0px 10px 0px;
+    margin: 25px 0px 10px 0px;
 
 }
 
@@ -296,6 +297,17 @@ figure.lumios img{
         margin-bottom: -20px ; /* Centralizar horizontalmente */
         
     }
+
+    figure.icone img{
+        width: 13%;
+        height: 15% ;
+        margin-bottom: -50px ; /* Centralizar horizontalmente */
+        margin-top: -18px ;
+        margin-left: -27px ;
+        position: relative;
+        /*border: 8px solid white;*/
+         box-shadow: 1px 1px 4px black;  
+    }
 </style>
 
 <body>
@@ -307,7 +319,10 @@ figure.lumios img{
 
     </hgroup>
 
-    <img id="icone" src="imagens/Rafael.jpg"/>
+    <figure class="icone">
+        <img src="imagens/Rafael.jpg"/>
+    </figure>
+
 
 <nav id = "menu">
     <h1>Menu Principal</h1>
