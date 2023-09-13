@@ -1,0 +1,296 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/TitilliumWeb-Light.ttf");
+}
+
+p{
+    text-align: justify;
+    text-indent: 50px;
+}
+
+p#introducao{
+    position: relative;
+    text-align: justify;
+    text-indent: 40px;
+    margin-left: 140px;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 1)
+}
+
+div#interface {
+    width: 900px;
+    margin: -20px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px 10px 10px 10px;
+}
+
+header#cabecalho img#icone {
+    position: absolute;
+    left: 150px;
+    top: 169px;
+    width: 11%;
+    height: 25% ;
+
+}
+
+header#cabecalho {
+    border-bottom: 1px #606060 solid;
+    margin: 0px auto 0px auto;
+    height: 135px;
+    background: url("../_imagens/rafa-icone.png") no-repeat 800px 35px;
+    background-size: 100px 100px;
+}
+
+header#cabecalho h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 35pt;
+    color: #606060;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+header#cabecalho h2{
+    font-family: Arial, sans-serif;
+    font-size: 35pt;
+    color: crimson;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 0px;
+    margin-top: 10px;
+}
+/* formatacao de imagens com legendas*/
+
+figure.foto-legenda{
+    position: relative;
+    border: 8px solid white;
+    box-shadow: 1px 1px 4px black;
+}
+
+
+figure.foto-legenda img{
+    width: 100%;
+    height: 100% ;
+}
+
+figure.foto-legenda figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+}
+
+figure.foto-legenda:hover figcaption{
+    opacity: 1;
+
+}
+
+/* FORMATACAO DO MENU    */
+
+
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 500px;
+
+}
+
+nav#menu li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+}
+
+nav#menu li:hover{
+    background-color: #606060;
+}
+nav#menu h1{
+    display: none ;
+}
+
+nav#menu a{
+    color:rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+nav#menu a:hover{
+    color:#ffffff;
+}
+
+section#corpo {
+    display: block;
+    width: 500px;
+    float: left;
+    border-right: 1px solid #606060;
+    padding-right: 20px;
+}
+
+article#missao h2{
+    font-size: 16pt;
+    color:black;
+    background-color: #dddddd;
+    padding: 10px 0px 5px 0px;
+    margin: 12px 0px 10px 0px;
+
+}
+
+article#doutorado h2{
+    font-size: 16pt;
+    color:black;
+    background-color: #dddddd;
+    padding: 10px 0px 5px 0px;
+    margin: 12px 0px 10px 0px;
+
+}
+
+aside#lateral{
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: #f0f0f0; /* Cor de fundo do aside */
+    padding: 14px; /* Espaçamento interno do aside */
+    
+    .expertise-list {
+        list-style-type: circle; /* Remover marcadores de lista */
+        padding: 0; /* Remover o preenchimento padrão da lista */
+    }
+}
+
+
+footer#rodape{
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p{
+    text-align: center;
+}
+
+
+aside#lateral expertise-container{
+    margin-left: 5px; /* Margem à esquerda para afastar o conteúdo do lado esquerdo */
+    
+}
+
+aside#lateral{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    
+}
+
+aside#lateral li{
+    color: crimson; 
+    /* Margem à esquerda para afastar o conteúdo do lado esquerdo */
+}
+
+aside#lateral h1{
+    text-align: center;
+    color: #606060; /* Margem à esquerda para afastar o conteúdo do lado esquerdo */
+    background-color: #606060;
+    font-size: 15pt;
+    color: white;
+    padding: 5px ;
+    margin-top: 5px;
+}
+    
+table#tab-espec{
+    margin-left: 0px;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse; /* Isso ajuda a unir as bordas das células */
+}
+
+table#tab-espec td{
+    border: 1px solid #606060 ;
+    padding: 5px;
+    text-align: center; /* Centraliza o texto nas células */
+}
+
+aside#lateral2 {
+    font-size: 13pt;
+    /* Aumente ou diminua o valor conforme necessário */
+    text-align: center;   
+}
+
+aside#lateral2 h1{
+    font-size: 15pt;
+    color: blue;
+    /* Aumente ou diminua o valor conforme necessário */
+    text-align: center;  
+    margin-left: 10px ; 
+}
+
+figure.chemistika img{
+    width: 60%;
+    height: 60% ;
+    text-align: center; /* Centralizar horizontalmente */
+    margin-bottom: -20px ; /* Centralizar horizontalmente */
+    
+}
+
+aside#lateral2 p {
+    font-size: 12pt;
+    text-indent: 20px; /* Aumente ou diminua o valor conforme necessário */
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    text-indent: 50px;
+    
+}
+
+aside#lateral2{
+    display: block;
+    width: 350px;
+    float: right;
+    background-color: white; /* Cor de fundo do aside */
+    padding: 14px; /* Espaçamento interno do aside */}
+
+figure.lumios img{
+        width: 60%;
+        height: 60% ;
+        text-align: center; /* Centralizar horizontalmente */
+        margin-bottom: -20px ; /* Centralizar horizontalmente */
+        
+    }
+
+    figure.cheic img{
+        width: 60%;
+        height: 60% ;
+        text-align: center; /* Centralizar horizontalmente */
+        margin-bottom: -20px ; /* Centralizar horizontalmente */
+        
+    }
+
+
+/*figure.lumios figcaption{
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+} */
+
